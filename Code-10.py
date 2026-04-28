@@ -4,6 +4,4 @@ b=int(input("Enter the num:"))
 
 a,b=b,a
 
-print(a,b)
-
-
+print("a=",a,"b=",b)
