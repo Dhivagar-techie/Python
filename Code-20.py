@@ -1,3 +1,4 @@
+#  Check Armstrong Number in intervals
 num1=int(input("Enter then first number"))
 num2=int(input("Enter then Second number"))
 
