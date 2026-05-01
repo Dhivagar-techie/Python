@@ -6,4 +6,5 @@ for i in range(n):
         print("*",end=" ")
     for l in range(i):
         print("*",end=" ")
+
     print()
