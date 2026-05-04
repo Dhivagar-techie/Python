@@ -1,23 +1,16 @@
-def compute_lcm(x, y):
+#Find the LCM of Two numbers
+n1=int(input("Enter the first Number:"))
+n2=int(input("Enter the Second Number:"))
 
-    # choose greater number
-    if x > y:
-        greater = x
-    else:
-        greater = y
+if n1>n2:
+    biggest = n1
+else:
+    biggest = n2
 
-    while True:
-
-        if (greater % x == 0) and (greater % y == 0):
-            lcm = greater
+while True:
+        if (biggest%n1==0) and (biggest%n2==0):
+            final=biggest
             break
-
-        greater += 1
-
-    return lcm
-
-
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
-
-print("The LCM is", compute_lcm(num1, num2))
+        biggest=biggest+1
+      
+print(final)
