@@ -9,5 +9,3 @@ else:
     for i in range(num):
         print(a)
         a,b=b,a+b
-    
-
