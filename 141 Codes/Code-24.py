@@ -2,7 +2,7 @@
 
 Num=int(input("Enter the number :"))
 
-print(bin(Num))
-print(oct(Num))
-print(hex(Num))
+print("the binary number is",bin(Num))
+print("the octagone number is",oct(Num))
+print("the hexagon number is",hex(Num))
 
