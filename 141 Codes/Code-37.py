@@ -1,27 +1,44 @@
-# Adding two matrices
+a=int(input("Enter the number of rows:"))
+b=int(input("Enter the number of coloums:"))
 
-A = [
-    [1, 2],
-    [3, 4]
-]
+totalA=[]
 
-B = [
-    [5, 6],
-    [7, 8]
-]
+for i in range(a):
+    Onlyrowa=[]
+    for j in range(b):
+        val=int(input(f"enter  the a[{i}][{j}]"))
+        Onlyrowa.append(val)
+    totalA.append(Onlyrowa)
 
-result = [
-    [0, 0],
-    [0, 0]
-]
 
-# Matrix addition
-for i in range(len(A)):
 
-    for j in range(len(A[0])):
+totalB=[]
 
-        result[i][j] = A[i][j] + B[i][j]
+for i in range(a):
+    Onlyrowb=[]
+    for j in range(b):
+        val=int(input(f"enter  the a[{i}][{j}]:"))
+        Onlyrowb.append(val)
+    totalB.append(Onlyrowb)
 
-# Print result
-for row in result:
-    print(row)
+
+
+
+total=[]
+
+for i in range(a):
+    Onlyrowc=[]
+    for j in range(b):
+        val=totalA[i][j] + totalB[i][j]
+        Onlyrowc.append(val)
+    total.append(Onlyrowc)
+
+print("the matrix of A",totalA)
+
+print("the matrix of B",totalB)
+
+print("the total of A+B",total)
+
+
+
+
