@@ -1,4 +1,4 @@
-#Addition of two Matrix
+#Multiplication of two Matrix
 
 a=int(input("Enter the number of rows:"))
 b=int(input("Enter the number of coloums:"))
@@ -31,7 +31,7 @@ total=[]
 for i in range(a):
     Onlyrowc=[]
     for j in range(b):
-        val=totalA[i][j] + totalB[i][j]
+        val=totalA[i][j] * totalB[i][j]
         Onlyrowc.append(val)
     total.append(Onlyrowc)
 
@@ -39,7 +39,7 @@ print("the matrix of A",totalA)
 
 print("the matrix of B",totalB)
 
-print("the total of A+B",total)
+print("the Multiplicaton of A+B",total)
 
 
 
