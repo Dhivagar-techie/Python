@@ -1,6 +1,6 @@
 # Write a Python program to determine whether the given number is a HarshadNumber.
 
-num=18
+num=int(input("enter the number:"))
 
 temp=num
 
@@ -17,3 +17,6 @@ if temp%store==0:
    
 else:
      print(num,"is not a HarshadNumber")
+
+
+
