@@ -8,6 +8,15 @@ store1=str1.split()
 
 store2=str2.split()
 
+for i in store1:
+    if i !=store2:
+        print(i)
+
+for j in store2:
+    if j !=store1:
+        print(j)
+
+
 
 
 
