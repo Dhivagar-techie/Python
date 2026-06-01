@@ -1,3 +1,4 @@
+#This is the Sample Class for importing 
 class Cares:
     def __init__(self,model,year,colour,sale):
         self.model=model

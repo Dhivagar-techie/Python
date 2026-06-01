@@ -1,3 +1,5 @@
+# This is also the class example 
+
 from Car import Cares
 
 Car1=Cares("Bmw",2000,"Blue",True)

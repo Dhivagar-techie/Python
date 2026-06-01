@@ -1,3 +1,4 @@
+# this is Class Variables examples
 class student:
    
     graduate=2025
