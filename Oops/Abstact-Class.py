@@ -1,3 +1,5 @@
+#this is a Class Abstact Example
+
 from abc import ABC , abstractmethod
 
 class Cars(ABC):
