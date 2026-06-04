@@ -35,10 +35,16 @@ class Triangle(Shapes):
 class Pizza(Circle):
     def __init__(self,radius,Toppings):
      super().__init__(radius)
-     self.radius=radius
+     self.Toppings=Toppings
 
 List=[Triangle(23,12),Square(21),Circle(25),Pizza(43,"cheese")]
 
 for i in List:
     a=i.area()
     print(a)
+
+Pizz=Pizza(23,"Red chilli")
+
+AA=Pizz.Toppings
+
+print(AA)
