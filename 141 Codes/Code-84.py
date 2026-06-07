@@ -1,20 +1,36 @@
-# Define a class Person and its two child classes: Male and Female. All classes have amethod "getGender" which can print "Male" for Male class and "Female" for Femaleclass.
+# Please write a program to generate all sentences where subject is in ["I", "You"] andverb is in ["Play", "Love"] and the object is in ["Hockey","Football"].
+subjects = ["I", "You"]
+verbs = ["Play", "Love"]
+objects = ["Hockey", "Football"]
 
-class person:
-    def __init__(self,gender):
-        self.gender=gender
+store=[]
 
-class male(person):
-    def getgender(self):
-        print(f"this is a Male {self.gender}")
+for subject in subjects:
 
-class female(person):
-    def getgender(self):
-        print(f"this is a female {self.gender}")
+    for verb in verbs:
 
-obj1=male("ram")
-obj2=female("ramya")
+        for obj in objects:
 
-obj1.getgender()
-obj2.getgender()
+            sen=f"{subject} {verb} {obj}"
 
+            store.append(sen)
+
+for i in store:
+    print (i)
+
+
+# alternative method
+
+subjects = ["I", "You"]
+verbs = ["Play", "Love"]
+objects = ["Hockey", "Football"]
+
+for subject in subjects:
+
+    for verb in verbs:
+
+        for obj in objects:
+
+            print(subject, verb, obj)
+
+  
